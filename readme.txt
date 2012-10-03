@@ -10,7 +10,7 @@ Este plugin permite colocar un formulario de comentarios de facebook en tus post
 
 == Description ==
 
-Este es un plugin que te permitira tener tu formulario de facebook en tus post y pages. Es facil de instalar. Ayuda en el posicionamiento SEO. No consume recursos del sistema. Es pequeño. Olvidate de los comentarios spam.
+Este es un plugin que te permitira tener tu formulario de facebook en tus post y pages. Es facil de instalar. Ayuda en el posicionamiento SEO. No consume recursos del sistema. No ocupa espacio. Olvidate de los comentarios spam.
 
 = Features =
 
