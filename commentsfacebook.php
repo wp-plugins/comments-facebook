@@ -46,7 +46,7 @@ function admin_menu_commentsfacebook() {
 }
 
 function options_page_commentsfacebook() {
-  include(WP_PLUGIN_DIR.'/commentsfacebook/options.php');  
+  include(WP_PLUGIN_DIR.'/comments-facebook/options.php');  
 }
 
 function commentsfacebook() { 
