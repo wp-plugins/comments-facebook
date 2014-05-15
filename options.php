@@ -46,4 +46,25 @@
 </p>
 
 </form>
+
+
+<span style="font-size:14px; font-weight:bold"><p><b>Recommended plugin</b></p>
+
+<p><a href="http://wordpress.org/plugins/statistics-website/" target="_blank">Statistics Website</a></p>
+
+<p><b>Features</b></p>
+- Real Time Visitor Count<br />
+- Last 30 Minutes<br />
+- Last 24 Hours<br />
+- Visits Over Time<br />
+- Visits by Server Time<br />
+- Visitor Map<br />
+- Visitor Location (Country)<br />
+- Returning Visits Over Time<br />
+- Pages per Visit<br />
+- Search Engines<br />
+- Referrer Websites<br />
+- Keywords<br />
+- And more...<br />
+</span>
 </div>
