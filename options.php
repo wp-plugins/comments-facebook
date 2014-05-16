@@ -52,6 +52,7 @@
 
 <p><a href="http://wordpress.org/plugins/statistics-website/" target="_blank">Statistics Website</a></p>
 
+<div style="float:left; width:300px">
 <p><b>Features</b></p>
 - Real Time Visitor Count<br />
 - Last 30 Minutes<br />
@@ -66,5 +67,9 @@
 - Referrer Websites<br />
 - Keywords<br />
 - And more...<br />
+</div>
+<div style="float:left;width:300px; margin-top:20px">
+<img src="http://logonike.com/wp-content/uploads/2014/05/300x250.jpg"/>
+</div>
 </span>
 </div>
