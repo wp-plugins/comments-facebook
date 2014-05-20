@@ -3,7 +3,7 @@
 Plugin Name: Comments Facebook
 Plugin URI: http://bumbablog.com/
 Description: Este plugin mostrará el formulario de comentarios de facebook en tus post y pages. Contribuye con tu SEO. No más comentarios spam.
-Version: 1.1
+Version: 1.11
 Author: Demo BUMBABlog
 Author URI: http://bumbablog.com/
 */
@@ -61,17 +61,18 @@ function commentsfacebook() {
   ?>
   
   <div id="fb-root"></div>
+  
 	<script>(function(d, s, id) {
   		var js, fjs = d.getElementsByTagName(s)[0];
   		if (d.getElementById(id)) return;
   		js = d.createElement(s); js.id = id;
-  		js.src = "//connect.facebook.net/<?php echo $app_language ?>/all.js#xfbml=1&appId=<?php echo $web_app_id ?>";
+  		js.src = "//connect.facebook.net/<?php echo $app_language ?>/sdk.js#xfbml=1&appId=<?php echo $web_app_id ?>&version=v2.0";
   		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	
    <div style="margin-top: 30px;"><h3><?php echo $web_app_title ?></h3></div>
              
-   <center><div class="fb-comments" data-href="<?php the_permalink() ?>" data-num-posts="<?php echo $app_post ?>" data-width="<?php echo $app_width ?>"></div></center>
+   <center><div class="fb-comments" data-href="<?php the_permalink() ?>" data-num-posts="<?php echo $app_post ?>" data-width="<?php echo $app_width ?>" data-colorscheme="light"></div></center>
     
   <?php
 

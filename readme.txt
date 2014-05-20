@@ -42,5 +42,7 @@ Una demo del plugin lo encontraras en http://bumbablog.com
 == Upgrade Notice ==
 
 == Changelog ==
-= 1.2 =
+= 1.1 =
 * Compatibilidad con 3.9
+= 1.11 =
+* Change sdk
