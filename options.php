@@ -50,7 +50,7 @@
 
 <span style="font-size:14px; font-weight:bold"><p><b>Recommended plugin</b></p>
 
-<p><a href="http://wordpress.org/plugins/statistics-website/" target="_blank">Statistics Website</a></p>
+<p><a href="http://wordpress.org/plugins/counter-and-stats-website/" target="_blank">Counter and Stats Website</a></p>
 
 <div style="float:left; width:300px">
 <p><b>Features</b></p>
