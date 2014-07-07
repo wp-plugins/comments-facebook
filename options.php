@@ -13,7 +13,7 @@
 </tr>
 
 <tr valign="top">
-<th scope="row">App ID (Optional):</th>
+<th scope="row">App ID:</th>
 <td><input type="text" name="web_app_id" value="<?php echo get_option('web_app_id'); ?>" /></td>
 </tr>
 
