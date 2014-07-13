@@ -72,16 +72,15 @@ function commentsfacebook() {
   $app_post = get_option('app_post');
   
   $url_base_com = get_permalink();
-  if (get_the_title($post->post_parent) == "GoodFidelity"){  }
-  else { ?>
-    
+  
+?>    
    <div style="margin: 30px 0px 30px 0px;"><h2><?php echo $web_app_title ?></h2></div>
              
    <div class="fb-comments" data-href="<?php echo $url_base_com; ?>" data-num-posts="<?php echo $app_post ?>" data-colorscheme="light" data-width="100%"></div>
    
    <script>FB.XFBML.parse();</script>
   <?php
-  }
+ 
 }
 
 register_activation_hook(__FILE__, 'activate_commentsfacebook');
