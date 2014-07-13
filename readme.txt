@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 3.9
 Stable tag: 1.5
 
-Este plugin permite colocar un formulario de comentarios de facebook en tus post y pages. 
+Este plugin permite colocar un formulario de comentarios de facebook en tus post y pages. Facil de instalar.
 
 == Description ==
 
