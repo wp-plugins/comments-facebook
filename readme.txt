@@ -4,7 +4,7 @@ Tags: bumbablog, comments, facebook, like, networks, social, comentarios, redes,
 Donate link: http://bumbablog.com 
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.5
+Stable tag: 1.51
 
 Este plugin permite colocar un formulario de comentarios de facebook en tus post y pages. Facil de instalar.
 
@@ -46,6 +46,6 @@ Una demo del plugin lo encontraras en http://bumbablog.com
 * Support 3.9
 = 1.11 =
 * Change sdk
-= 1.5 =
+= 1.51 =
 * Responsive
 * Support Ajax

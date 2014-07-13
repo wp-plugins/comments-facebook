@@ -3,7 +3,7 @@
 Plugin Name: Comments Facebook
 Plugin URI: http://bumbablog.com/
 Description: Este plugin mostrará el formulario de comentarios de facebook en tus post y pages. Contribuye con tu SEO. No más comentarios spam. Fácil de instalar.
-Version: 1.5
+Version: 1.51
 Author: Demo BUMBABlog
 Author URI: http://bumbablog.com/
 */
