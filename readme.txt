@@ -1,22 +1,23 @@
-=== Comments Facebook ===
+=== Comments Facebook and Share Button ===
 Contributors: BUMBABlog
 Tags: bumbablog, comments, facebook, like, networks, social, comentarios, redes, sociales
 Donate link: http://bumbablog.com 
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.51
+Stable tag: 2.0
 
-Este plugin permite colocar un formulario de comentarios de facebook en tus post y pages. Facil de instalar.
+This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
 
 == Description ==
 
-Este es un plugin que te permitira tener tu formulario de facebook en tus post y pages. Es facil de instalar. Ayuda en el posicionamiento SEO. No consume recursos del sistema. No ocupa espacio. Olvidate de los comentarios spam.
+This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
 
 = Features =
 
-- Formulario de facebook.
-- No spam comentarios.
-- Ayuda en el SEO.
+- Comments of facebook.
+- Share button (optional).
+- No spam comments.
+- Help in the SEO.
 
 == Installation ==
 
@@ -38,14 +39,20 @@ Una demo del plugin lo encontraras en http://bumbablog.com
 
 == Frequently Asked Questions ==
 
+== Screenshots ==
+
+1. Image 1
+2. Image 2
 
 == Upgrade Notice ==
 
 == Changelog ==
-= 1.1 =
-* Support 3.9
-= 1.11 =
-* Change sdk
+= 2.0 =
+* Share button
 = 1.51 =
 * Responsive
 * Support Ajax
+= 1.11 =
+* Change sdk
+= 1.1 =
+* Support 3.9
