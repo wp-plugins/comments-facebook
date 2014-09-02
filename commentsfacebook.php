@@ -3,7 +3,7 @@
 Plugin Name: Comments Facebook and Share Button
 Plugin URI: http://www.goodfidelity.com/
 Description: This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
-Version: 2.0
+Version: 2.1.0
 Author: Demo GoodFidelity
 Author URI: http://www.goodfidelity.com/
 */
@@ -88,7 +88,7 @@ if($app_share != ""){
 
    <div style="margin: 30px 0px 30px 0px"><h2><?php echo $web_app_title ?></h2></div>
             
-   <div class="fb-comments" data-href="<?php echo $url_base_com; ?>" data-num-posts="<?php echo $app_post ?>" data-colorscheme="light" data-width="100%"></div>
+   <div class="fb-comments" data-href="<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" data-num-posts="<?php echo $app_post ?>" data-colorscheme="light" data-width="100%"></div>
    
    <script>FB.XFBML.parse();</script>
   <?php

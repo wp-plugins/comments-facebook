@@ -4,13 +4,15 @@ Tags: bumbablog, comments, facebook, like, networks, social, comentarios, redes,
 Donate link: http://bumbablog.com 
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 2.0
+Stable tag: 2.1.0
 
 This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
 
 == Description ==
 
 This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
+
+demo: http://ww.goodfidelity.com
 
 = Features =
 
@@ -35,7 +37,7 @@ Comments Facebook is easy to install like other plug-ins of Wordpress as you nee
 
 == Usage ==
 
-Una demo del plugin lo encontraras en http://bumbablog.com
+Una demo del plugin lo encontraras en http://ww.goodfidelity.com
 
 == Frequently Asked Questions ==
 
@@ -47,6 +49,8 @@ Una demo del plugin lo encontraras en http://bumbablog.com
 == Upgrade Notice ==
 
 == Changelog ==
+= 2.1.0 =
+* Correct erros
 = 2.0 =
 * Share button
 = 1.51 =
