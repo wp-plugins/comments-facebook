@@ -3,7 +3,7 @@
 Plugin Name: Comments Facebook and Share Button
 Plugin URI: http://www.goodfidelity.com/
 Description: This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
-Version: 2.1.1
+Version: 2.1.2
 Author: Demo GoodFidelity
 Author URI: http://www.goodfidelity.com/
 */
@@ -81,8 +81,19 @@ function commentsfacebook() {
 
 
 if($app_share != ""){  
-?> 
-   <a style="color:#FFF; text-decoration:none" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>','facebook-share-dialog','width=626,height=436'); return false;" title="Facebook"><div style="margin: 30px 0px 30px 0px; font-size:24px; padding:20px 0px 20px 0px; width:100%; background:#036; text-align:center"><strong><?php echo $app_text_share ?></strong></div></a>
+?>
+<style>
+div#buttonface{
+	margin: 30px 0px 30px 0px;
+	font-size:24px;
+	padding:20px 0px 20px 0px;
+	width:100%;
+	background:#036;
+	text-align:center;
+}
+</style>
+
+<a style="color:#FFF; text-decoration:none" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>','facebook-share-dialog','width=626,height=436'); return false;" title="Facebook"><div id="buttonface" ><strong><?php echo $app_text_share ?></strong></div></a>
 <?php
 } ?>   
 
