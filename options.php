@@ -15,9 +15,7 @@
 <input type="text" name="app_post" value="<?php echo get_option('app_post'); ?>" /><br /><br />
 <label><b>NOTE:</b> Desactive the comments in your post and pages. (Optional)</label><br /><br />
 
-<input type="checkbox" name="app_share" value="Share" <?php if (get_option('app_share') != "") echo checked; ?> /><strong>Share in Facebook</strong><br /><br />
-<label><strong>Text Share : </strong></label><br />
-<input type="text" name="app_text_share" value="<?php echo get_option('app_text_share'); ?>" />
+<input type="checkbox" name="app_share" value="Share" <?php if (get_option('app_share') != "") echo checked; ?> /><strong>Share</strong><br /><br />
 
 <input type="hidden" name="action" value="update"/>
 

@@ -3,7 +3,7 @@
 Plugin Name: Comments Facebook and Share Button
 Plugin URI: http://www.goodfidelity.com/
 Description: This plugin will display the comments of Facebook after of post. Contribute your SEO. No more comments spam. Easy to install. Also will display the share button of facebook.
-Version: 2.1.2
+Version: 2.2.0
 Author: Demo GoodFidelity
 Author URI: http://www.goodfidelity.com/
 */
@@ -23,7 +23,6 @@ function activate_commentsfacebook() {
   add_option('app_language', 'es_ES');
   add_option('app_post', '5');
   add_option('app_share', 'checked');
-  add_option('app_text_share','Share in Facebook');
 }
 
 function admin_init_commentsfacebook() {
@@ -32,7 +31,6 @@ function admin_init_commentsfacebook() {
   register_setting('commentsfacebook', 'app_language');
   register_setting('commentsfacebook', 'app_post');
   register_setting('commentsfacebook', 'app_share');
-  register_setting('commentsfacebook', 'app_text_share');
 }
 
 function admin_menu_commentsfacebook() {
@@ -48,6 +46,10 @@ function declarevarcom(){
   $web_app_id = get_option('web_app_id');
   $app_language = get_option('app_language');
   $app_post = get_option('app_post');
+
+  //LLama a styles
+	wp_register_style( 'mystyle', plugins_url('/css/style.css', __FILE__) );
+	wp_enqueue_style( 'mystyle' );
 ?>
   
   <div id="fb-root"></div>
@@ -75,29 +77,20 @@ function commentsfacebook() {
   $app_language = get_option('app_language');
   $app_post = get_option('app_post');
   $app_share = get_option('app_share');
-  $app_text_share = get_option('app_text_share');
   
   $url_base_com = get_permalink();
 
 
 if($app_share != ""){  
-?>
-<style>
-div#buttonface{
-	margin: 30px 0px 30px 0px;
-	font-size:24px;
-	padding:20px 0px 20px 0px;
-	width:100%;
-	background:#036;
-	text-align:center;
-}
-</style>
 
-<a style="color:#FFF; text-decoration:none" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>','facebook-share-dialog','width=626,height=436'); return false;" title="Facebook"><div id="buttonface" ><strong><?php echo $app_text_share ?></strong></div></a>
+?>
+<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>','facebook-share-dialog','width=626,height=436'); return false;" title="Facebook"><div id="buttonface" ></div></a>
+<a href="#" onclick="window.open('https://plus.google.com/share?url=<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>','facebook-share-dialog','width=626,height=436'); return false;" title="Google +"><div id="buttongoogle" ></div></a>
+<a href="#" onclick="window.open('https://twitter.com/intent/tweet?url=http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>&original_referer=http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>','facebook-share-dialog','width=626,height=436'); return false;" title="Twitter"><div id="buttontwitter" ></div></a>
 <?php
 } ?>   
 
-   <div style="margin: 30px 0px 30px 0px"><h2><?php echo $web_app_title ?></h2></div>
+   <div style="margin: 30px 0px 30px 0px"><h1><?php echo $web_app_title ?></h1></div>
             
    <div class="fb-comments" data-href="<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" data-num-posts="<?php echo $app_post ?>" data-colorscheme="light" data-width="100%"></div>
    
