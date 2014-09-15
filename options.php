@@ -26,18 +26,12 @@
 </form>
 
 
-<span style="font-size:14px; font-weight:bold"><p><b>Recommended plugin</b></p>
+<span style="font-size:14px; font-weight:bold"><p><b>Other plugin of the author:</b></p>
 
 <p><a href="http://wordpress.org/plugins/goodfidelity/" target="_blank">Goodfidelity Music Bar</a></p>
-<p>Description: Complements your website with a administrator of videos and music. Your users will be able to create one or more playlist, you be able to listen music without interruption, may share in facebook and more. Millions of music videos at your fingertips. It offers a powerful search engine. Demo: www.goodfidelity.com. You can also use the short code: [good myvideo="IDyoutube"] - example: [good myvideo="k4l3PAKdQCo"] - to create content in your posts. </p>
+<p><b>Description:</b> Complements your website with a administrator of videos and music. Your users will be able to create one or more playlist, you be able to listen music without interruption, may share in facebook and more. Millions of music videos at your fingertips. It offers a powerful search engine. Demo: www.goodfidelity.com.</p>
 <a href="http://wordpress.org/plugins/goodfidelity/" target="_blank">
-<div style="float:left;width:300px; margin-top:20px; margin-right:20px">
-<img src="http://www.goodfidelity.com/wp-content/uploads/2014/08/banner2.jpg"/>
-</div>
-<div style="float:left;width:300px; margin-top:20px">
-<img src="
-http://www.goodfidelity.com/wp-content/uploads/2014/08/banner3.jpg"/>
-</div>
+<img src="http://www.goodfidelity.com/wp-content/uploads/2014/09/banner4.jpg"/>
 </a>
 </span>
 </div>
